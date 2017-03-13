@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-chartboost",
+  "version": "1.0.0",
+  "description": "Chartboost ads for Apache Cordova",
+  "cordova": {
+    "id": "cordova-plugin-chartboost",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notmedia/cordova-plugin-chartboost.git"
+  },
+  "keywords": [
+    "chartboost",
+    "ads",
+    "video",
+    "ad",
+    "plugin",
+    "ios",
+    "monetisation"
+  ],
+  "author": "notmedia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/notmedia/cordova-plugin-chartboost/issues"
+  },
+  "homepage": "https://github.com/notmedia/cordova-plugin-chartboost#readme"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns=""
+        id="cordova-plugin-chartboost" version="1.0.0">
+    <name>Chartboost Plugin</name>
+    <description>Cordova Chartboost Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,chartboost</keywords>
+    <js-module src="www/Chartboost.js" name="Chartboost">
+        <clobbers target="window.Chartboost" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ChartboostPlugin">
+                <param name="ios-package" value="ChartboostPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/ChartboostPlugin.h" />
+        <source-file src="src/ios/ChartboostPlugin.m" />
+        <framework src="src/ios/Chartboost.framework" custom="true"/>
+        <framework src="StoreKit.framework"/>
+        <framework src="Foundation.framework"/>
+        <framework src="CoreGraphics.framework" />
+        <framework src="UIKit.framework" />
+    </platform>
+</plugin>
